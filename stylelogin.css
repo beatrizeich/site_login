@@ -1,0 +1,18 @@
+body {
+    background-color: #779553;
+    font-family: 'Poppins';
+}
+
+.texto1 {
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+    font-weight: 500;
+}
+
+.texto2 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
