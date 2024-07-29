@@ -1,0 +1,64 @@
+body {
+    background-color: #779553;
+    font-family: 'Poppins';
+    color: #779553;
+}
+
+.primeiro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.toylab {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 100px;
+    height: 100px;
+}
+
+.texto1 {
+    font-size: 28px;
+    margin: 20px;
+    font-weight: 600;
+    color: #779553;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.nome, .senha {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #779553;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #779553;
+    border-radius: 8px;
+}
+
+.botão {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #779553;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
